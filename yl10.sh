@@ -15,7 +15,7 @@ server3="10.100.0.205"
 sshkasutaja="student"
 
 #logifail kuhu kirjutatakse kättesaamatud serverid
-logifail="/home/student/skriptimine-bash/serverid.txt"
+logifail="/home/student/Skriptid/serverid.txt"
 
 #käib kõik kolm serverit for tsükliga läbi
 for server in $server1 $server2 $server3
