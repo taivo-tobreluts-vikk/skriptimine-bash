@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "tere maailm!"
+
+#Skript et jooksutada suvalisi koodijuppe, mõistmaks nende tääd
+
+randnum=$((RANDOM % 20 + 1))
+echo "$randnum"
